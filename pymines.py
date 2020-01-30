@@ -94,7 +94,7 @@ class game():
 
     def __init__(self):
         self.boardObj = board()
-        self.cheatMode = 1
+        self.cheatMode = 0
         self.osTools = osTools()
         self.menuObj = menu()
         self.gameOver = 0
